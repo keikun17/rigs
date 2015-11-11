@@ -1,15 +1,34 @@
-.rig
-  .rig-column
-    .rig-row
-      .rig-item.monitor
-        = image_tag('t_monitor.jpg')
-    .rig-row
-      .rig-item.speakers
-        = image_tag('t_audio.jpg')
-      .rig-item.keyboard
-        = image_tag('t_keyboard.jpg')
-      .rig-item.mouse
-        = image_tag('t_mouse.jpg')
-  .rig-column
-    .rig-item.cpu
-      = image_tag('t_cpu.jpg')
+.container
+  .rig
+    #rig-photo
+      = image_tag("rig.jpg")
+    #rig-items
+      %ol
+        %li Monitor 1
+        %li Monitor 2
+        %li Monitor 3
+        %li CPU Case
+        %li Nvidia 1
+        %li Nvidia 2
+        %li Nvidia 3
+        %li CPU inner LED
+        %li CPU Fan
+        %li CPU Fan light
+        %li CPU Cooler
+        %li CPU Cooler Tubes
+        %li Keyboard
+        %li Mouse
+
+  #comments
+    %comment
+      %author John Doe
+      %body This rig is just copy pasted from the internet
+
+    %comment
+      %author John Doe
+      %body Fake!
+
+    %comment
+      %author John Doe
+      %body Die OP
+
